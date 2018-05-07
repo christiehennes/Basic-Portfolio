@@ -1,0 +1,54 @@
+/* Menu Styling */
+
+body {
+    /*TODO: Can't figure out how to get white strip off the top */
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-wrapper {
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+
+}
+
+.menu-content-wrapper {
+
+    background-color: white;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+}
+
+.portfolio-name-wrapper {
+    background: #4aaaa5;
+    flex: 1;
+
+}
+
+.menu-blank-container{
+    flex: 2;
+
+}
+
+.menu-items-wrapper {
+    flex: 1;
+
+    display: flex;
+}
+
+.menu-item {
+    flex: 1;
+}
+
+.content-wrapper {
+    background-color: grey;
+}
+
+.menu-header-text {
+    color: white;
+    text-align: center;
+}
