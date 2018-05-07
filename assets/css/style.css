@@ -57,11 +57,10 @@
 
 .menu-item {
     flex: 1;
+
+    /* TODO: Remove ugly link styling off menu links */
 }
 
-.content-wrapper {
-    background-color: grey;
-}
 
 
 /* Body Content */
@@ -72,6 +71,13 @@
     background-image: url(../images/topography.png);
 
 }
+
+.content-container {
+    background-color: white;
+    margin-top: 35px;
+    /*padding: 10px 35px 10px 35px; TODO: Figure out spacing on this page*/ 
+}
+
 
 
 /* Footer */ 
