@@ -1,9 +1,9 @@
 /* Menu Styling */
 
 body {
-    /*TODO: Can't figure out how to get white strip off the top */
     padding: 0px;
     margin: 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; /*TODO: Move this font?? */
 }
 
 .menu-wrapper {
@@ -19,12 +19,14 @@ body {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+    
 
     display: flex;
 }
 
 .portfolio-name-wrapper {
     background: #4aaaa5;
+
     flex: 1;
 
 }
@@ -35,6 +37,8 @@ body {
 }
 
 .menu-items-wrapper {
+    margin-top: auto;
+    margin-bottom: auto;
     flex: 1;
 
     display: flex;
@@ -48,7 +52,10 @@ body {
     background-color: grey;
 }
 
+/* Font Styling */
+
 .menu-header-text {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
     text-align: center;
 }
