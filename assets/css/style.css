@@ -13,6 +13,7 @@
     padding: 0px;
     margin: 0px;
     background-color: white;
+    border-bottom: 1px solid #cccccc;
     flex:1;
 
 }
@@ -57,8 +58,13 @@
 
 .menu-item {
     flex: 1;
+    text-align: center;
 
     /* TODO: Remove ugly link styling off menu links */
+}
+
+.menu-item + .menu-item  {
+    border-left: 1px solid black;
 }
 
 
@@ -74,7 +80,9 @@
 
 .content-container {
     background-color: white;
+    border: 1px solid #dddddd;
     margin-top: 35px;
+    margin-bottom: 35px;
     /*padding: 10px 35px 10px 35px; TODO: Figure out spacing on this page*/ 
 }
 
@@ -84,6 +92,37 @@
 
 .footer-wrapper {
     flex: 1;
+
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top {
+    flex: .75;
+    background-color: #4aaaa5;
+}
+
+.footer-bottom {
+    background-color: grey;
+    flex: 4;
+
+    display: flex;
+    
+}
+
+.footer-content {
+    position: relative;
+}
+
+.footer-content-text {
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+
 }
 
 /* Font Styling */
