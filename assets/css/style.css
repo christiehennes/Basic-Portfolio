@@ -87,8 +87,27 @@
 }
 
 .content-padding {
-    padding: 0px 35px 0px 35px;
+    padding: 0px 35px 15px 35px;
 }
+
+
+/* Contact Page */
+
+.field {
+    width: 100%;
+    border: 1px solid #dddddd;
+}
+
+.submit-button {
+    padding: 12px 30px;
+    margin-top: 10px;
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+
+}
+
+
 
 /* Footer */ 
 
