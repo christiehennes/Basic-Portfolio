@@ -86,7 +86,9 @@
     /*padding: 10px 35px 10px 35px; TODO: Figure out spacing on this page*/ 
 }
 
-
+.content-padding {
+    padding: 0px 35px 0px 35px;
+}
 
 /* Footer */ 
 
