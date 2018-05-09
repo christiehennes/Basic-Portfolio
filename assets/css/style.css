@@ -1,5 +1,7 @@
 /* Menu Styling */
 
+/* TODO: Change it to use align-tems, justify-content, and box-shadow 
+TODO: Need to go over positioning vs. flex*/
 .body {
     padding: 0px;
     margin: 0px;
@@ -93,10 +95,17 @@
 
 /* Contact Page */
 
+.field-name{
+    color: #777777;
+    padding: 5px 0px;
+}
+
 .field {
     width: 100%;
     border: 1px solid #dddddd;
+    margin-bottom: 15px;
 }
+
 
 .submit-button {
     padding: 12px 30px;
