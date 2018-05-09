@@ -69,13 +69,13 @@ TODO: Need to go over positioning vs. flex*/
     border-left: 1px solid black;
 }
 
-
+/*NOTES: Aspect ratio: get a hero image to resize automatically, then you do height/width to get the % and then use that as your padding-bottom*/
+/*NOTES: Look up transform: translate (-50%, -50%)*/
 
 /* Body Content */
 
 .content-wrapper {
     flex: 1;
-
     background-image: url(../images/topography.png);
 
 }
