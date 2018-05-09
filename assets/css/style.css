@@ -92,6 +92,11 @@ TODO: Need to go over positioning vs. flex*/
     padding: 0px 35px 15px 35px;
 }
 
+.content-title {
+    color: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 /* Contact Page */
 
