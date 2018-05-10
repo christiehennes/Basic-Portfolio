@@ -121,7 +121,18 @@ TODO: Need to go over positioning vs. flex*/
 
 }
 
+.bio-info {
+    display: flex;
+    flex-direction: column;
+}
 
+.p-container {
+    display: flex;
+}
+
+.padded {
+    padding-left: 10px;
+}
 
 /* Footer */ 
 
