@@ -154,17 +154,16 @@ TODO: Need to go over positioning vs. flex*/
     background-color: #4aaaa5;
     height: 40px;
     width: 250px;
-    bottom: 10px;
-    z-index: 1;
-
-    display: flex;
+    bottom: 15px;
+    
 }
 
 .portfolio-text {
-    flex: 1;
+    padding: 9px;
+    text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
-    text-align: center;
+    
 }
 
 
