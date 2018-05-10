@@ -121,6 +121,8 @@ TODO: Need to go over positioning vs. flex*/
 
 }
 
+/* About Page */
+
 .bio-info {
     display: flex;
     flex-direction: column;
@@ -133,6 +135,45 @@ TODO: Need to go over positioning vs. flex*/
 .padded {
     padding-left: 10px;
 }
+
+
+/* Portfolio Page */
+
+.portfolio-items-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+    margin: 15px 15px;
+}
+
+.portfolio-item-title-wrapper {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 250px;
+    bottom: 10px;
+    z-index: 1;
+
+    display: flex;
+}
+
+.portfolio-text {
+    flex: 1;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    text-align: center;
+}
+
+
+.portfolio-item-image {
+    width: 250px;
+}
+
+
+
 
 /* Footer */ 
 
@@ -169,11 +210,12 @@ TODO: Need to go over positioning vs. flex*/
     width: 100%;
     text-align: center;
 
+
 }
 
 /* Font Styling */
 
-.menu-header-text {
+.menu-header-text{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
     text-align: center;
