@@ -70,9 +70,11 @@ TODO: Need to go over positioning vs. flex*/
 
 a:link {
     text-decoration: none;
+    color:#777777;
 }
 a:visited {
     text-decoration: none;
+    color:#777777;
 }
 a:hover {
     color: #4aaaa5;
