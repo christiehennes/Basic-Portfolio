@@ -61,12 +61,22 @@ TODO: Need to go over positioning vs. flex*/
 .menu-item {
     flex: 1;
     text-align: center;
-
     /* TODO: Remove ugly link styling off menu links */
 }
 
 .menu-item + .menu-item  {
     border-left: 1px solid black;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    color: #4aaaa5;
+
 }
 
 /*NOTES: Aspect ratio: get a hero image to resize automatically, then you do height/width to get the % and then use that as your padding-bottom*/
@@ -142,11 +152,15 @@ TODO: Need to go over positioning vs. flex*/
 .portfolio-items-container {
     display: flex;
     flex-wrap: wrap;
+
+    /* TODO: Add max-width: 960 so that things wrap */
 }
 
 .portfolio-item-wrapper {
     position: relative;
-    margin: 15px 15px;
+    flex: 1;
+    margin: 15px;
+    min-width: 250px;
 }
 
 .portfolio-item-title-wrapper {
